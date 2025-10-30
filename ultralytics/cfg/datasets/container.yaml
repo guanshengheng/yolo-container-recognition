@@ -1,0 +1,19 @@
+# ----------------------------------------------
+# 文件名: container.yaml
+# 存放在: D:/CODE/GithubCode/Yolo/ultralytics-8.3.163/
+# ----------------------------------------------
+
+# 路径必须是您刚才日志中显示的绝对路径
+# 注意：在YAML文件中，Windows路径请使用正斜杠 /
+path: D:/CODE/GithubCode/Yolo/ultralytics-8.3.163/datasets/container
+
+# 目录
+train: images/train
+val: images/val
+test: images/test   # 这是您原始的test目录，用于比赛最终测试
+
+# 类别信息 (请再次核对您的 classes.txt 确保顺序一致)
+names:
+  0: dent
+  1: hole
+  2: rusty
